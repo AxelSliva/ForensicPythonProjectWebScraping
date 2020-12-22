@@ -21,7 +21,7 @@ len(elements)
 for e in elements :
     print(e.text)
 
-res=[]
+res = []
 for i in range ( 0, len(elements),8):
     Date = elements[i].text
     D = elements[i +1].text
